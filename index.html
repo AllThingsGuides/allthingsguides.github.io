@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Coming Soon | AllThings</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript">
+      function notready() {
+        document.getElementById("arrivingsoon").innerHTML = "N O T &nbsp; &nbsp; R E A D Y &nbsp; &nbsp; Y E T .";
+      }
+      function arrivingsoon() {
+        document.getElementById("arrivingsoon").innerHTML = "A R R I V I N G &nbsp; &nbsp; S O O N .";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="center">
+      <center>
+        <img src="https://allthingsguides.github.io/html/All Things HTML.png" width="100px;" style="margin-right: 20px;margin-top: 25vh">
+        <img src="https://allthingsguides.github.io/html/All Things CSS.png" width="100px;" style="margin-right: 20px;">
+        <img src="https://allthingsguides.github.io/html/All Things JS.png" width="100px;">
+        <h1>Learn HTML, CSS, and Javascript <span class="cursive">easily.</span></h1>
+        <p>With AllThings, you'll be able to learn HTML, CSS, and Javascript<br>with interactive tutorials, guides, and challenges.</p>
+        <br>
+        <br>
+        <button class="green" onmouseover="notready()" onmouseout="arrivingsoon()" id="arrivingsoon">A R R I V I N G &nbsp; &nbsp; S O O N .</button>
+      </center>
+    </div>
+    <div class="footer">
+      <p>&nbsp; ©2021 All Things. All rights reserved.</p>
+    </div>
+  </body>
+</html>

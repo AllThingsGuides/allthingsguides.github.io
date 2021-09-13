@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url("https://allthingsguides.github.io/html/background.png") no-repeat;
+  background-size: 100%;
+}
+
+h1 {
+  font-weight: normal;
+  text-decoration: underline;
+  text-decoration-color: rgba(76, 237, 92, 0.5);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cursive {
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  color: #4CED5C;
+}
+
+.green {
+  padding: 15px 20px 15px 20px;
+  background: #4CED5C;
+  border-radius: 3px;
+  font-weight: bold;
+  transition: 0.4s;
+  cursor: pointer;
+  color: #181820;
+  outline: none;
+  border: none;
+}
+
+.green:hover {
+  opacity: 0.7;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 30px;
+  opacity: 0.5;
+  position: fixed;
+}
